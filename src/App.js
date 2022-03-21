@@ -1,3 +1,4 @@
+import Benifits from "./componenets/Benifits";
 import NavBar from "./componenets/NavBar";
 import ShowCase from "./componenets/ShowCase";
 
@@ -5,8 +6,11 @@ import ShowCase from "./componenets/ShowCase";
 function App() {
   return (
     <>
-     <NavBar/>
-     <ShowCase/>
+    <div>
+      <NavBar/>
+      <ShowCase/> 
+      <Benifits/>
+    </div>
     </>
   );
 }

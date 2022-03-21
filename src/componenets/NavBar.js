@@ -8,7 +8,7 @@ export default function NavBar() {
   }
 
   return (
-    <div className='flex w-screen h-[80px] z-10 bg-zinc-200 fixed'>
+    <div className='flex w-screen h-[80px] z-10 bg-zinc-200'>
         <div className='px-2 flex justify-between items-center w-full h-full'>
             <div className='flex items-center'>
                 <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>BRAND.</h1>
@@ -21,8 +21,8 @@ export default function NavBar() {
                 </ul>
             </div>
             <div className='hidden md:flex pr-4'>
-                  <button className='border-none bg-transparent text-black mr-4'>Sign in</button>
-                  <button className='px-8 py-3'>Sign up</button>
+                  <button className='border-none bg-transparent text-black mr-[2rem]'>Sign in</button>
+                  <button className='px-6 py-2'>Sign up</button>
             </div>
             <div className='md:hidden hover:cursor-pointer' onClick={showNav}>
               {!nav ? <MenuIcon className='w-[30px] mr-4'/> : <XIcon className='w-[30px] mr-4'/>}
